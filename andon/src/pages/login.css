@@ -1,0 +1,16 @@
+.login-container {
+  display: flex;
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center; /* Dikeyde ortalama */
+  height: 100%; /* Yüksekliği container ile aynı olacak */
+}
+
+.login-container .ant-card {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-container .ant-card h1 {
+  text-align: center;
+}
